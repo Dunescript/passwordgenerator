@@ -1,0 +1,166 @@
+body {
+    width: 550px;
+    height: 550px;
+    left: 62px;
+    top: 64px;
+    background: #1F2937;
+}
+
+.sub{
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    padding-left:52px; 
+    
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+.subR{
+    width: 354px;
+    height: 80px;
+    top: 115px;
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #4ADF86;
+
+}
+
+.subN{
+    width: 372px;
+    height: 28px;
+    padding-left:52px; 
+    padding-top: 10px;
+
+    /* text-xl/leading-7/font-normal */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+
+    /* Medium grey */
+
+    color: #D5D4D8;
+}
+
+
+
+#gen-num{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+}
+
+#gen-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px px;
+    margin-left:52px; 
+
+    width: 191px;
+    height: 42px;
+    left: 52px;
+    top: 284px;
+
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: none;
+}
+
+#gen-tx{
+    width: 159px;
+    height: 24px;
+   
+
+    /* text-base/leading-6/font-medium */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+#line{
+    width: 446px;
+    height: 0px;
+    margin-left:52px; 
+    top: 361px;
+
+    border: 1px solid #2F3E53;
+}
+
+.result{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;;
+    align-items: initial;
+    padding-left:25px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px; 
+    /* identical to box height, or 200% */
+
+    text-align: center;
+
+    color: #55F991;
+}
+
+#result-1{
+    width: 211px;
+    left: 52px;
+    top: 396px;
+    
+
+    background: #273549;
+    border-radius: 6px;
+}
+#result-2{
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+
+    background: #273549;
+    border-radius: 6px;
+}
